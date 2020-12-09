@@ -1,0 +1,191 @@
+.Login {
+    background-color: #777;
+    overflow: hidden;
+    height: 100vh;
+}
+.login-bg {
+    width: 100%;
+    position: relative;
+    bottom: 600px;
+}
+.login-overlay {
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.6);
+    position: absolute;
+    top: 0;
+}
+.login-box {
+    background-color: #fff;
+    width: 800px;
+    height: 500px;
+    border-radius: 5px;
+    padding: 5px;
+}
+.login-left {
+    width: 50%;
+}
+.login-right {
+    width: 50%;
+    position: relative;
+}
+.login-right img {
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+}
+.animation-overlay {
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.3);
+    top: 0;
+    left: 0;
+    z-index: 3;
+    position: absolute;
+}
+.login-title {
+    font-size: 14px;
+    text-transform: uppercase;
+    margin: 20px 0;
+    margin-bottom: 15px;
+    color: #777;
+}
+.admin-login-form {
+    width: 80%;
+}
+.admin-login-form input {
+    font-size: 14px;
+    outline: none;
+    border: none;
+    height: 50px;
+    margin: 15px 0;
+    border-bottom: 2px #ddd solid;
+    transition: .5s;
+    margin-top: 5px;
+}
+.admin-login-form input:focus {
+    border-bottom: 2px #111 solid;
+}
+.admin-login-form input:hover {
+    border-bottom: 2px #111 solid;
+    transition: .5s;
+}
+.admin-login-form button {
+    margin-top: 40px;
+    height: 50px;
+    outline: none;
+    border: none;
+    font-size: 14px;
+}
+
+
+@media only screen and (max-width: 1200px) {
+    .login-bg { 
+        bottom: 400px;
+    }
+}
+@media only screen and (max-width: 1100px) {
+    .login-bg { 
+        height: 100%; 
+        bottom: 0;
+    }
+} 
+@media only screen and (max-width: 850px) { 
+    .login-box {  
+        height: 60vw; 
+        margin: 0 40px;
+    }
+} 
+@media only screen and (max-width: 750px) { 
+    .login-box {  
+        margin: 0 40px;
+    }
+    .admin-login-form button {
+        margin-top: 20px;
+    }
+    .admin-login-form input {
+        height: 30px;
+        font-size: 12px;
+    }
+    .login-arr-admin {
+        /* height: 30px !important; */
+        font-size: 12px !important;
+    }
+} 
+@media only screen and (max-height: 500px) { 
+    .login-box {  
+        height: 90vh;
+    }
+    .admin-login-form input {
+        height: 30px;
+        font-size: 12px;
+    }
+    .login-arr-admin {
+        /* height: 30px !important; */
+        font-size: 12px !important;
+    }
+    .admin-login-form button {
+        margin-top: 20px;
+    }
+}
+@media only screen and (max-width: 650px) { 
+    .login-title {
+        font-size: 12px;
+        margin: 10px 0;
+    }
+    .admin-login-form input {
+        margin-bottom: 5px;
+    }
+    .login-arr-admin {
+        font-size: 10px !important;
+    }
+    .login-box {
+        height: 50vw;
+    }
+}
+@media only screen and (max-width: 550px) { 
+    .login-box {
+        margin: 0 20px;
+        width: 70%;
+        height: 80vw;
+    }
+    .login-title {
+        margin: 20px 0;
+        font-size: 16px; 
+    }
+    .admin-login-form {
+        width: 90%;
+        align-items: center;
+    }
+    .login-arr-admin {
+        width: 90% !important;
+    }
+    .admin-login-form input {
+        width: 100%;
+        height: 50px;
+        margin: 10px 0;
+    }
+    .admin-login-form button {
+        margin-top: 20px; 
+        width: 100%;
+        height: 40px;
+    }
+    .login-left {
+        width: 100%;
+    }
+    .login-right {
+        display: none;
+    }
+}
+@media only screen and (max-width: 450px) {  
+    .login-box { 
+        width: 90%;
+        height: 100vw;
+    }
+} 
+@media only screen and (max-width: 350px) {  
+    .admin-login-form input {
+        height: 30px;
+    } 
+}

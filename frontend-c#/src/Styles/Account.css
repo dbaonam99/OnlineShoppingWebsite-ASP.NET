@@ -1,0 +1,195 @@
+.AccountInfo {
+    height: calc(100% - 90px);
+    width: 100%;
+}
+.account-container {
+    display: flex;
+    flex-direction: column;
+    height: calc(100vh - 80px); 
+}
+.accountinfo-container {
+    height: 100%;
+}
+.accountinfo-menu {
+    min-width: 250px;
+    height: 100%;
+    padding-right: 20px;
+}
+.accountinfo-main {
+    flex-grow: 1;
+    border-left: 1px #ddd solid;
+    padding: 20px;
+    padding-top: 0;
+    padding-right: 0;
+    height: 100%; 
+}
+.accountinfo-avt {
+    height: 69px;
+    align-items: center;
+    border-bottom: 1px #ddd solid;
+}
+.accountinfo-avt-name {
+    margin-left: 20px;
+}
+.accountinfo-menu-item {
+    display: flex;
+    align-items: center;
+    margin: 20px 0;
+    cursor: pointer;
+    padding: 10px 20px;
+    transition: .2s;
+    border-radius: 10px;
+}
+.accountinfo-menu-item:hover {
+    background-color: #111;
+    color: #FFF;
+}
+.accountinfo-active {
+    background-color: #111;
+    color: #FFF;
+}
+.accountinfo-title {
+    height: 69px;
+    padding-bottom: 20px;
+    border-bottom: 1px #ddd solid;
+}
+.accountinfo-title p:first-child {
+    font-size: 18px;
+}
+.accountinfo-title p:last-child {
+    font-size: 14px;
+    color: #666;
+    margin-top: 5px;
+}
+
+.accountinfo-body {
+    width: 100%;
+    height: calc(100% - 49px);
+    padding-top: 10px; 
+    overflow-y: scroll;
+}
+.accountinfo-body form {
+    width: 100%;
+    height: 100%;
+}
+.accountinfo-body2 {
+    width: 100%;
+    height: 85%;
+}
+.accountinfo-body form table {
+    height: 100%;
+    width: 70%;
+}
+.accountinfo-editavt {
+    width: 30%;
+    border-left: 1px #ddd solid;
+    align-items: center;
+    flex-direction: column;
+    align-items: center;
+    padding-left: 20px;
+    padding-top: 50px;
+}
+.accountinfo-editavt-input {
+    margin-top: 50px;
+    font-size: 12px;
+    border: none;
+    width: 200px;
+}
+
+.accountinfo-body form table tr td:first-child {
+    width: 25%;
+    text-align: right;
+    padding-right: 20px;
+    font-size: 14px;
+    color: #666;
+}
+.accountinfo-body .input {
+    width: 90%;
+    border: none;
+    outline: none;
+    font-size: 14px !important;
+    border-bottom: 2px #ddd solid !important;
+    margin-bottom: 2px;
+    font-size: 14px;
+    color: #666;
+    font-family: sans-serif;
+    padding: 5px 0;
+}
+.accountinfo-body input:hover, .accountinfo-body input:focus {
+    border-bottom: 2px #111 solid !important;
+}
+.accountinfo-btn-row {
+    margin-top: 10px;
+    display: flex;
+    justify-content: center;
+}
+.accountinfo-btn {
+    padding: 10px 20px;
+    border: none;
+    outline: none;
+    margin-top: 10px;
+}
+.accountinfo-orderitem {
+    margin: 10px 0;
+    background-color: red;
+}
+.dashboard-table-orderlist { 
+    height: calc(100% - 49px) !important;
+    overflow-y: scroll;
+}
+.account-box-row {
+    margin: 10px 0 !important;
+}
+.account-box-left {
+    width: 100px !important;
+    justify-content: flex-end;
+    margin-right: 20px;
+}
+.account-box-right {
+    flex-grow: 1;
+    align-items: center;
+}
+.create-box-left {
+    width: 170px !important;
+}
+.create-box-right { 
+    width: 100% !important;
+}
+
+    
+@media only screen and (max-width: 750px) {   
+    .accountinfo-container {
+        flex-direction: column;
+    }
+    .accountinfo-menu-list {
+        display: flex;
+        justify-content: space-between;
+    }
+    .accountinfo-main {
+        padding-left: 0;
+        border: none;
+    }
+    .accountinfo-title {
+        display: none;
+    }
+    .dashboard-table-orderlist, .accountinfo-body {
+        overflow: visible !important; 
+    }
+    .accountinfo-container, .AccountInfo {
+        height: max-content;
+    }
+    .dashboard-left {
+        margin: 10px 0;
+        font-size: 16px !important;
+    }
+    .dashboard-right input {
+        padding: 0 !important;
+        padding-bottom: 5px !important;
+    }
+}
+
+@media only screen and (max-width: 400px) {   
+    .accountinfo-menu-item {
+        padding: 10px;
+    }
+}

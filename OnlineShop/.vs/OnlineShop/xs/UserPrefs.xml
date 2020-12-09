@@ -1,0 +1,39 @@
+﻿<Properties StartupConfiguration="{2DEBEDAF-F79A-453E-92D8-804E6CE1CED3}|Default">
+  <MonoDevelop.Ide.ItemProperties.OnlineShop PreferredExecutionTarget="/Applications/Safari.app" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="OnlineShop/Controllers/NewsController.cs">
+    <Files>
+      <File FileName="OnlineShop/Controllers/CollectionController.cs" Line="61" Column="10" />
+      <File FileName="OnlineShop/Controllers/NewsController.cs" Line="80" Column="1" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="OnlineShop" expanded="True">
+            <Node name="OnlineShop" expanded="True">
+              <Node name="Controllers" expanded="True">
+                <Node name="NewsController.cs" selected="True" />
+              </Node>
+              <Node name="Models" expanded="True" />
+              <Node name="Services" expanded="True" />
+              <Node name="wwwroot" expanded="True">
+                <Node name="images" expanded="True" />
+              </Node>
+              <Node name="appsettings.json" expanded="True" />
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore>
+      <Breakpoint file="/Users/namduong/Projects/OnlineShop-ASP.net/OnlineShop/OnlineShop/Controllers/ProductController.cs" relfile="OnlineShop/Controllers/ProductController.cs" line="73" column="1" />
+      <Breakpoint file="/Users/namduong/Projects/OnlineShop-ASP.net/OnlineShop/OnlineShop/Controllers/ProductController.cs" relfile="OnlineShop/Controllers/ProductController.cs" line="75" column="1" />
+      <Breakpoint file="/Users/namduong/Projects/OnlineShop-ASP.net/OnlineShop/OnlineShop/Controllers/ProductController.cs" relfile="OnlineShop/Controllers/ProductController.cs" line="80" column="1" />
+      <Breakpoint file="/Users/namduong/Projects/OnlineShop-ASP.net/OnlineShop/OnlineShop/Controllers/ProductController.cs" relfile="OnlineShop/Controllers/ProductController.cs" line="82" column="1" />
+    </BreakpointStore>
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MultiItemStartupConfigurations />
+</Properties>
